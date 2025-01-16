@@ -1,0 +1,3 @@
+{
+  cpuFreqGovernor = "powersave";
+}
