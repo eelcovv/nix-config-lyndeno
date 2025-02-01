@@ -2,7 +2,7 @@
   lib,
   pkgs,
 }: {
-  users.users.lsanche.createHome = true;
+  users.users.eelco.createHome = true;
   programs.dconf.enable = true;
   programs.niri.enable = true;
 

@@ -9,7 +9,7 @@
           partitions = {
             ESP = {
               type = "EF00";
-              size = "2G";
+              size = "512M";
               content = {
                 type = "filesystem";
                 format = "vfat";
@@ -20,7 +20,7 @@
               };
             };
             luks = {
-              size = "100%";
+              size = "229.17G";
               content = {
                 type = "luks";
                 name = "crypted";
@@ -44,7 +44,7 @@
         type = "lvm_vg";
         lvs = {
           nixswap = {
-            size = "64G";
+            size = "8.8";
             content = {
               type = "swap";
               resumeDevice = true;

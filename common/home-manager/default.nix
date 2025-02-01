@@ -10,6 +10,6 @@
   };
 
   users = {
-    inherit (homes) lsanche;
+    inherit (homes) eelco;
   };
 }
