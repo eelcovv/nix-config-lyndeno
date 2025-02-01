@@ -1,7 +1,7 @@
 {
-  email.accounts.fastmail = {
+  email.accounts.gmail = {
     primary = true;
-    realName = "Eelco ranche";
+    realName = "Eelco van Vliet";
     userName = "eelcovv@gmail.com";
     address = "eelco@gmail.com";
     msmtp.enable = true;
