@@ -10,12 +10,12 @@
   # We specify the host key so our ssh agent does not have to keep looking and possibly
   # hitting the limit before finding the right key.
   matchBlocks = let
-    keys = pubKeys.lsanche;
+    keys = pubKeys.eelco;
     inherit (super) gitKeys;
   in
     (builtins.mapAttrs (name: value: {
         hostname = name;
-        identityFile = "${(pkgs.writeText "lsanche-${name}.pub" ''
+        identityFile = "${(pkgs.writeText "eelco-${name}.pub" ''
           ${value}
         '')}";
         identitiesOnly = true;

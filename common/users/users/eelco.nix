@@ -4,7 +4,7 @@
   config,
   pubKeys,
 }: let
-  keys = pubKeys.lsanche;
+  keys = pubKeys.eelco;
 in {
   isNormalUser = true;
   description = "Eelco van Vliet";

@@ -4,10 +4,10 @@
   config,
   pubKeys,
 }: let
-  keys = pubKeys.lsanche;
+  keys = pubKeys.eelco;
 in {
   isNormalUser = true;
-  description = "Lyndon Sanche";
+  description = "Eelco van Vliet";
   uid = 1000;
   initialPassword = "test";
   extraGroups = [

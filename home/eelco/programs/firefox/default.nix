@@ -1,6 +1,6 @@
 {osConfig}: {
   inherit (osConfig.mods.desktop) enable;
-  profiles.lsanche = {
+  profiles.eelco = {
     id = 0;
     isDefault = true;
   };

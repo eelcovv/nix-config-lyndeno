@@ -4,7 +4,7 @@
     kde.enable = false;
     gtk.enable = false;
     gnome.enable = false;
-    firefox.profileNames = ["lsanche"];
+    firefox.profileNames = ["eelco"];
   };
   opacity = {
     terminal = 0.95;
