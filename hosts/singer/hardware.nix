@@ -2,6 +2,6 @@
   enableRedistributableFirmware = true;
   bluetooth.enable = true;
   graphics.extraPackages = [
-    pkgs.rocm-opencl-runtime
+    (pkgs.callPackage <nixpkgs/pkgs/development/compilers/rocm/opencl-runtime> {})
     ];
 }
