@@ -31,5 +31,5 @@
   kernelModules = [
     "coretemp" # sensors-detect for Intel temperature
   ];
-  binfmt.emulatedSystems = ["x86_64-linux"];
+  binfmt.emulatedSystems = ["aarch64-linux"];
 }
