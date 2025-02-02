@@ -10,7 +10,7 @@
 
     ZED_USE_ENCLOSURE_LEDS = true;
     ZED_SCRUB_AFTER_RESILVER = true;
-    ZED_EMAIL_ADDR = ["lsanche@lyndeno.ca"];
+    ZED_EMAIL_ADDR = ["eelco@gmail.com"];
     ZED_EMAIL_PROG = "${pkgs.msmtp}/bin/msmtp";
     ZED_EMAIL_OPTS = "@ADDRESS@";
     ZED_PUSHOVER_TOKEN = "$(${pkgs.busybox}/bin/cat ${config.age.secrets.zed_pushover.path})";

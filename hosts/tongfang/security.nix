@@ -2,7 +2,7 @@
   acme = {
     acceptTerms = true;
     defaults = {
-      email = "lsanche@lyndeno.ca";
+      email = "eelcovv@gmail.com";
       dnsProvider = "acme-dns";
       environmentFile = pkgs.writeText "acme-env" ''
         ACME_DNS_API_BASE=http://oracle:8080

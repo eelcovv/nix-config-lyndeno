@@ -15,9 +15,10 @@
     };
     accounts = {
       default = {
-        host = "smtp.fastmail.com";
+        host = "smtp.gmail.com";
         passwordeval = "${pkgs.busybox}/bin/cat ${config.age.secrets.fastmail_pass.path}";
-        user = "lsanche@fastmail.com";
+        user = "eelcovv@gmail.com.com";
+        # must be adjuste for eelco
         from = "${config.networking.hostName}@system.lyndeno.ca";
       };
     };

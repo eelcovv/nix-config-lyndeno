@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: Automatically merge successful flake updates
     conditions:
-      - author=Lyndeno
+      - author=Eelco
       - title=Update flake.lock
       - "check-success~=check-flake"
     actions:
