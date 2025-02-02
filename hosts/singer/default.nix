@@ -2,6 +2,9 @@
   lib,
   pkgs,
 }: {
+  [
+    ./hardware-configuration.nix
+  ]
   users.users.por.createHome = true;
   programs.dconf.enable = true;
   programs.niri.enable = true;
