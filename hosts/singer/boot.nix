@@ -22,7 +22,7 @@
     kernelModules = [
       "kvm-amd"
     ];
-    luks.devices."luks-b3f33672-edb8-4154-96c1-d1344ab0e130".device = "/dev/disk/by-uuid/b3f33672-edb8-4154-96c1-d1344ab0e130";
+    luks.devices."luks-d6560107-9567-42eb-89cf-146446f76f99".device = "/dev/disk/by-uuid/d6560107-9567-42eb-89cf-146446f76f99";
   };
   kernelParams = [
     "acpi_rev_override=1" # nvidia card crashes things without this
