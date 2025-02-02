@@ -31,6 +31,7 @@ in
       #darktable
 
       # development
+      uv
       vscode
       jetbrains.pycharm-community-bin
 
