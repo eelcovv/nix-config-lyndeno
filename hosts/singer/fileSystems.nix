@@ -1,6 +1,6 @@
 {
   "/" = { 
-    device = "/dev/disk/by-uuid/461e766c-3384-45c7-856e-3987d725d35d";
+    device = "/dev/disk/by-uuid/1a077db1-9c94-43cf-b532-b6565dd1d119";
     fsType = "ext4";
   };
 

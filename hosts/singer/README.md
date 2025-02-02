@@ -12,7 +12,6 @@ Lenovo ideapad 3:
 - Manifacturer: LENOVO
 - Product Name: 81WO
 - System Version: IdeaPad 3 14ADA05
-- Intel AX210 WiFI + Bluetooth
 - Screen: 1920x1080 
 - SSD:
   NAME      MAJ:MIN     RM  SIZE    RO TYPE MOUNTPOINTS
