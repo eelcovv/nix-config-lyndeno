@@ -30,6 +30,10 @@ in
       gimp
       #darktable
 
+      # development
+      vscodium
+      jetbrains.pycharm-community-bin
+
       # Office
       #kicad
       #octaveFull
