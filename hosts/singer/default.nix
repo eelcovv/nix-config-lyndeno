@@ -38,18 +38,6 @@
 
   powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
 
-  networking = {
-    networkmanager = {
-      enable = true;
-      settings.connectivity = {
-        uri = "http://google.com/generate_204";
-        response = "";
-      };
-    };
-    useDHCP = lib.mkDefault true;
-  };
-
-
   environment.systemPackages = with pkgs; [
     libsmbios # For fan control
     sbctl
