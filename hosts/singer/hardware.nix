@@ -1,5 +1,7 @@
 {pkgs}: {
   enableRedistributableFirmware = true;
   bluetooth.enable = true;
-  graphics.extraPackages = [pkgs.intel-compute-runtime];
+  graphics.extraPackages = [
+    pkgs.rocm-opencl-runtime
+    ];
 }
