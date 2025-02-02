@@ -2,8 +2,8 @@
   lib,
   pkgs,
 }: {
-  [
-    ./hardware-configuration.nix
+  imports = [
+    ./configuration.nix
   ];
   users.users.por.createHome = true;
   programs.dconf.enable = true;
