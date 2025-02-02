@@ -31,8 +31,9 @@ in
       #darktable
 
       # development
-      vscodium
+      vscode
       jetbrains.pycharm-community-bin
+
 
       # Office
       #kicad
