@@ -1,5 +1,5 @@
 {
-  fstrim.enable = true;
+  fstrim.enable = false;
   logind.lidSwitch = "suspend-then-hibernate";
-  ollama.enable = true;
+  ollama.enable = false;
 }
