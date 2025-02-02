@@ -1,6 +1,6 @@
 # Singer
 
-Karnrawee's Laptop. Mainly used for webbrowsing. 
+Karnrawee's Laptop. Mainly used for webbrowsing.
 
 ## Specs
 
@@ -13,8 +13,8 @@ Lenovo ideapad 3:
 - Product Name: 81WO
 - System Version: IdeaPad 3 14ADA05
 - Intel AX210 WiFI + Bluetooth
-- Screen: 1920x1080 IGZO
-- SSD: 
+- Screen: 1920x1080 
+- SSD:
   NAME      MAJ:MIN     RM  SIZE    RO TYPE MOUNTPOINTS
   nvme0n1   259:0       0   238.5G  0   disk
   nvme0n1p1 259:1       0   512M    0   part/boot
