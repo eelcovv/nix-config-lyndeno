@@ -32,7 +32,6 @@ in
 
       # development
       uv
-      vscode
       jetbrains.pycharm-community-bin
 
 

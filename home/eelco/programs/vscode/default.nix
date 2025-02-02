@@ -4,8 +4,8 @@
   osConfig,
 }: {
   inherit (osConfig.mods.desktop) enable;
-  package = pkgs.vscodium;
-  enableExtensionUpdateCheck = false;
+  package = pkgs.vscode;
+  enableExtensionUpdateCheck = true;
   enableUpdateCheck = false;
   extensions = with pkgs.vscode-extensions; [
     vscodevim.vim
