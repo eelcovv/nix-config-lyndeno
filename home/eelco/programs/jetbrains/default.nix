@@ -4,5 +4,5 @@
   osConfig,
 }: {
   inherit (osConfig.mods.desktop) enable;
-  package = pkgs.jetrains-pycharm-comunity-bin;
+  package = pkgs.jetbrains.pycharm-community-bin;
 }
