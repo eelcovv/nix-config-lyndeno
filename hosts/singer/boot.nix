@@ -9,10 +9,10 @@
     timeout = 0;
     efi.canTouchEfiVariables = true;
   };
-  lanzaboote = {
-    enable = false;
-    pkiBundle = "/etc/secureboot";
-  };
+  # lanzaboote = {
+  #   enable = false;
+  #   pkiBundle = "/etc/secureboot";
+  # };
   initrd = {
     systemd = {
       enable = true;
