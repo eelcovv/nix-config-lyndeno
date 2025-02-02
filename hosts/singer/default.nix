@@ -1,7 +1,14 @@
 {
+  flake,
   lib,
   pkgs,
-}: {
+  ...
+}: 
+let
+  inherit (flake) inputs;
+  inherit (inputs) inputs;
+in
+{
   imports = [
     ./configuration.nix
   ];
@@ -9,13 +16,13 @@
   programs.dconf.enable = true;
   programs.niri.enable = true;
 
-  security.tpm2.enable = true;
+  #security.tpm2.enable = true;
 
-  systemd.sleep.extraConfig = ''
-    HibernateDelaySec=2h
-  '';
+  #systemd.sleep.extraConfig = ''
+  #  HibernateDelaySec=2h
+  #'';
 
-  powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
+  #powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
 
   networking = {
     networkmanager = {
