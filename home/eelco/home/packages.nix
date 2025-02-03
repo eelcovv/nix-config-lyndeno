@@ -33,6 +33,7 @@ in
 
       # development
       ghostty
+
       uv
       jetbrains.pycharm-community-bin
       just
