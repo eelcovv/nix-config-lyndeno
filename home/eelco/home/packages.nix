@@ -20,6 +20,7 @@ in
       #signal-desktop
       #discord
       slack
+      jitsi
 
       # Email
       wally-cli # for moonlander
@@ -31,8 +32,10 @@ in
       #darktable
 
       # development
+      ghostty
       uv
       jetbrains.pycharm-community-bin
+      just
 
       # gpu
       mesa-demos
