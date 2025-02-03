@@ -34,6 +34,8 @@ in
       uv
       jetbrains.pycharm-community-bin
 
+      # gpu
+      mesa-demos
 
       # Office
       #kicad
