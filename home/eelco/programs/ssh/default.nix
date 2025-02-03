@@ -33,14 +33,14 @@
         '')}";
       };
 
-      "gitlab.com" = {
-        hostname = "altssh.gitlab.com";
-        port = 443;
-        user = "git";
-        identitiesOnly = true;
-        identityFile = "${(pkgs.writeText "gitlab.pub" ''
-          ${gitKeys.gitlab}
-        '')}";
-      };
+      # "gitlab.com" = {
+      #   hostname = "altssh.gitlab.com";
+      #   port = 443;
+      #   user = "git";
+      #   identitiesOnly = true;
+      #   identityFile = "${(pkgs.writeText "gitlab.pub" ''
+      #     ${gitKeys.gitlab}
+      #   '')}";
+      # };
     };
 }

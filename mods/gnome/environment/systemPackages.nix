@@ -11,7 +11,7 @@ with pkgs;
   ++ (with gnomeExtensions; [
     appindicator
     dash-to-dock
-    tailscale-qs
+    # tailscale-qs
     caffeine
     dash-to-panel
     just-perfection
